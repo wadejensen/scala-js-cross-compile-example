@@ -2,7 +2,7 @@
 
 This is an example on how to cross compile code to Scala.js and Scala JVM.
 
-The sbt root project contains a "js" and "jvm" project which both independently compile to run their respective target runtime targets.
+The sbt root project contains "js" and "jvm" projects which both independently compile to run their respective runtime targets.
 That is to say, you can deploy the "js" project artifact to Node.js, and/or the "jvm" artifact to a Java Virtual Machine.
 
 To compile the meta-project:
@@ -25,7 +25,7 @@ sbt:Foo root project> compile
 
 ```
 
-To run the compiled JS artifact from sbt use:
+To run the compiled JS artifact from sbt:
 ```
     sbt> fooJS/run
 ```
@@ -48,7 +48,7 @@ Using shared library code: 2^2 = ...
 
 ```
 
-To run the compiled Scala artifact from sbt use:
+To run the compiled Scala artifact from sbt:
 ```    
     sbt> fooJVM/run
 ```
